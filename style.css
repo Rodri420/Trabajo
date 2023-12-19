@@ -1,32 +1,44 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
+  
     background: url('imagenes22/fondo\ pagina.png') center/cover no-repeat fixed;
-    /* Ajusta la ruta de la imagen de fondo y otros estilos según tus necesidades */
-    color: #ffffff; /* Ajusta el color del texto para que sea legible sobre la imagen de fondo */
+   
     
     align-items: stretch;
     justify-content: center;
+    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
   
 }
+
+.bloque {
+    width: 90%; /* Puedes ajustar el ancho según tus necesidades */
+    margin: 0 auto; /* Centra el contenido en la pantalla */
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  
+padding: 10px;
+gap: 10px;
+  }
+
+
+
 .total{
     color: aliceblue;
     font-weight: bold;
     font-size: 40px;
     color: #ffffff;
     text-shadow: 2px 2px 4px rgba(181, 194, 3, 0.8);
-}
-.bloque {
 
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-    box-sizing: border-box;
-    margin-top: 20px; 
-padding: 5px;
-gap: 20px;
-  }.card1{ 
+
+
+        }
+.card1{ 
 
     display: flex;
     flex-wrap: wrap;
@@ -42,6 +54,9 @@ height: 650px;
     box-sizing: border-box;
     
   }
+  
+  
+  
   .card2{
     display: flex;
     flex-wrap: wrap;
@@ -79,16 +94,19 @@ height: 650px;
     flex-wrap: wrap;
     position:relative;
     top: 80vh;
+    height: 20px;
     font-size: 26px;
 }
 .publi li{
     display: flex;
     flex-wrap: wrap;
    height: 40px;
-    background-color: #000000;
+   background-color: #140101;
     border-radius: 10px;
    
 }
 .publi a{
-    color: rgb(255, 252, 252);
+    color: rgb(255, 255, 255);
+   font-size: 20px;
 }
+
